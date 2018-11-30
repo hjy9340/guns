@@ -17,8 +17,9 @@ public class TemplateGenerator {
     public static void main(String[] args) throws IOException {
         ContextConfig contextConfig = new ContextConfig();
         contextConfig.setBizChName("啊哈");
-        contextConfig.setBizEnName("haha");
+        contextConfig.setBizEnName("zhuzhu");
         contextConfig.setModuleName("tk");
+        contextConfig.setDaoSwitch(false);
         contextConfig.setProjectPath("D:\\tmp\\guns");
 
         //contextConfig.setAddPageSwitch(false);
